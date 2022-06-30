@@ -23,8 +23,8 @@ if url == input('Enter user Activity:'):
     pass
 else:
     error()
-myadmin = input('id :')
-q = input('TOKEN :')
+myadmin = input('5244755240')
+q = input('5545867451:AAGL9CLOL7tbAU73wQSX1VaOgCm6fxoWZxk')
 N = 0
 bot = telebot.TeleBot(q)
 
@@ -34,13 +34,13 @@ def send_welcome(message):
     if iddu in myadmin:
         nam = message.from_user.first_name
         mas = types.InlineKeyboardMarkup(row_width=1)
-        D = types.InlineKeyboardButton('قناة المطور', url='https://t.me/EEIKG')
+        D = types.InlineKeyboardButton('قناة المطور', url='https://t.me/N1111V')
         mas.add(D)
         fg = bot.send_message((message.chat.id), f"هلا عزيزي المشترك “ {nam} ”\n\tفي بوت تشكير تيك توك\n\tاضغط لتشغيل “ /sta  ”", reply_markup=mas)
     else:
         mas = types.InlineKeyboardMarkup(row_width=1)
-        A = types.InlineKeyboardButton('المطور', url='https://t.me/RKRKQ')
-        C = types.InlineKeyboardButton('قناة المطور', url='https://t.me/EEIKG')
+        A = types.InlineKeyboardButton('المطور', url='https://t.me/S_Y_W')
+        C = types.InlineKeyboardButton('قناة المطور', url='https://t.me/N1111V')
         mas.add(A, C)
         fg = bot.send_message((message.chat.id), '⚠️ || عذرا هاذة لبوت ليس مجاني قم بمراسلة المطور لتفعيل !!', reply_markup=mas)
 
